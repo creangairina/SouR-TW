@@ -96,7 +96,7 @@ body {
       .header input#menu:checked + ul li {
         display: block;
         width: 100%;
-        background-color: #9c9c9c;
+        background-color: #9c9c9c8c;
         margin-top: 15px; }
         .header input#menu:checked + ul li a.item {
           float: none;
@@ -118,7 +118,7 @@ body {
       .header input#menu:checked + ul li {
         display: block;
         width: 100%;
-        background-color: #9c9c9c;
+        background-color: #9c9c9c8c;
         margin-top: 15px; }
         .header input#menu:checked + ul li a.item {
           float: none;
@@ -177,7 +177,7 @@ input,select {
 input[type=submit] {
     width: 13%;
     background-color: #3385ff;
-    color: white;
+    color: #664D45;
     padding: 14px 20px;
   margin: 8px 0;
     border: none;
@@ -190,13 +190,16 @@ input[type=submit] {
   width: 100%;
 }
 
-
+#tari {
+  width: 70%;
+  
+}
 
 label[for=tara]{
  
     box-sizing: border-box;
 
-    /*background-color:#EAF7FD;*/
+    background-color:#EAF7FD;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -206,7 +209,7 @@ label[for=data]{
  
     box-sizing: border-box;
 
-    /*background-color:#EAF7FD;*/
+    background-color:#EAF7FD;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -216,25 +219,8 @@ label[for=profil]{
  
     box-sizing: border-box;
 
-    /*background-color:#EAF7FD;*/
+    background-color:#EAF7FD;
     color: black;
     font-size: 20px;
     font-weight: bold;
-}
-
-
-.wrapper {
-
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-gap: 20px;
-  width: 70%;
-  color: #444;
-}
-
-.box {
-  background-color: #E0E0E0;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
 }
